@@ -1,0 +1,20 @@
+{
+  "packageRules": [
+    {
+      "groupName": "linters",
+      "extends": [
+        "packages:linters"
+      ],
+      "matchPackageNames": [
+        "prettier"
+      ],
+      "labels": [
+        "renovate",
+        "linting"
+      ],
+      "matchPackagePatterns": [
+        "^@typescript-eslint/"
+      ]
+    }
+  ]
+}

@@ -1,23 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    ":timezone(Asia/Tokyo)",
-    ":enableVulnerabilityAlertsWithLabel(security)",
-    ":automergePatch"
-  ],
-  "schedule": [
-    "after 10pm every weekday",
-    "before 7am every weekday",
-    "every weekend"
-  ],
-  "baseBranches": [
-    "develop"
-  ],
-  "labels": [
-    "renovate"
-  ],
-  "minor": {
-    "stabilityDays": 3
-  }
+      "local>dsk52/renovate-config"
+  ]
 }

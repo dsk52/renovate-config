@@ -1,0 +1,14 @@
+{
+  "packageRules": [
+    {
+      "groupName": "definitelyTyped",
+      "matchPackagePrefixes": [
+        "@types/"
+      ],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    }
+  ]
+}
