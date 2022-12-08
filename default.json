@@ -18,6 +18,7 @@
     "renovate"
   ],
   "minor": {
+    "internalChecksFilter": "strict",
     "stabilityDays": 3
   }
 }
