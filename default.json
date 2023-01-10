@@ -17,8 +17,6 @@
   "labels": [
     "renovate"
   ],
-  "minor": {
-    "internalChecksFilter": "strict",
-    "stabilityDays": 3
-  }
+  "internalChecksFilter": "strict",
+  "stabilityDays": 3
 }
