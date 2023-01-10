@@ -4,7 +4,8 @@
     "config:base",
     ":timezone(Asia/Tokyo)",
     ":enableVulnerabilityAlertsWithLabel(security)",
-    ":automergePatch"
+    "github>dsk52/renovate-config:automergePinPatch",
+    "github>dsk52/renovate-config:groupType"
   ],
   "schedule": [
     "after 10pm every weekday",
