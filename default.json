@@ -19,5 +19,6 @@
     "renovate"
   ],
   "internalChecksFilter": "strict",
-  "stabilityDays": 3
+  "stabilityDays": 3,
+  "prConcurrentLimit": 3
 }
