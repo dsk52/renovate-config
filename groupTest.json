@@ -1,0 +1,13 @@
+{
+  "packageRules": [
+    {
+      "groupName": "test",
+      "packagePatterns": [
+        "^jest"
+      ],
+      "patch": {
+        "automerge": true
+      }
+    }
+  ]
+}
