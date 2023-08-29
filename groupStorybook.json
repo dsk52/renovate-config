@@ -1,0 +1,17 @@
+{
+  "packageRules": [
+    {
+      "extends": [
+        "monorepo:storybook"
+      ],
+      "groupName": "storybook",
+      "labels": [
+        "renovate",
+        "storybook"
+      ],
+      "patch": {
+        "automerge": true
+      }
+    }
+  ]
+}
