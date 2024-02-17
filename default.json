@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:recommended",
     ":timezone(Asia/Tokyo)",
     ":enableVulnerabilityAlertsWithLabel(security)",
     "github>dsk52/renovate-config:automergePinPatch",
@@ -19,6 +19,6 @@
     "renovate"
   ],
   "internalChecksFilter": "strict",
-  "stabilityDays": 3,
-  "prConcurrentLimit": 2
+  "minimumReleaseAge": "3 days",
+  "prConcurrentLimit": 3
 }

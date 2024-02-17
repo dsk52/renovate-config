@@ -2,7 +2,7 @@
   "packageRules": [
     {
       "groupName": "test",
-      "packagePatterns": [
+      "matchPackagePatterns": [
         "^jest"
       ],
       "patch": {
