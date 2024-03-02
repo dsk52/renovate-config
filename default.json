@@ -20,5 +20,5 @@
   ],
   "internalChecksFilter": "strict",
   "minimumReleaseAge": "3 days",
-  "prConcurrentLimit": 3
+  "prConcurrentLimit": 2
 }
