@@ -11,9 +11,6 @@
       "labels": [
         "renovate",
         "linting"
-      ],
-      "matchPackagePatterns": [
-        "^@typescript-eslint/"
       ]
     }
   ]
