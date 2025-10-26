@@ -4,7 +4,7 @@
       "groupName": "Vitest",
       "extends": [
         "packages:vite",
-        "packages:vitest"
+        "monorepo:vitest"
       ],
       "labels": [
         "renovate",
