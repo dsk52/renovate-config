@@ -1,0 +1,18 @@
+{
+  "packageRules": [
+    {
+      "groupName": "Vitest",
+      "extends": [
+        "packages:vite",
+        "packages:vitest"
+      ],
+      "labels": [
+        "renovate",
+        "test"
+      ],
+      "patch": {
+        "automerge": true
+      }
+    }
+  ]
+}
