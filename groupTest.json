@@ -2,8 +2,8 @@
   "packageRules": [
     {
       "groupName": "test",
-      "matchPackagePatterns": [
-        "^jest"
+      "matchPackageNames": [
+        "/^jest/"
       ],
       "patch": {
         "automerge": true
