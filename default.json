@@ -12,8 +12,8 @@
     "before 7am every weekday",
     "every weekend"
   ],
-  "baseBranchPatterns": [
-    "main"
+  "baseBranches": [
+    "develop"
   ],
   "labels": [
     "renovate"
